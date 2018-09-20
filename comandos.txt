@@ -1,0 +1,16 @@
+instalaición
+  npm install -g @angular/cli
+Nuevo proyecto
+  ng new name
+Probar
+  ng serve
+Crear nueva clase
+  ng generate class modelo/usuario
+  ng g cl modelo/usuario
+Crear controlador para cada vista
+  ng generate component componente/ingreso
+  ng g c component componente/ingreso
+Crear servicio 
+  ng g s servicio/rest-api
+Crear el bulid 
+  ng build

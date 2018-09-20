@@ -4,17 +4,23 @@ import { FormsModule } from '@angular/forms'
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { IngresoComponent } from './componente/ingreso/ingreso.component';
+import { MensajeriaComponent } from './componente/mensajeria/mensajeria.component';
+import {RestApiService} from './servicio/rest-api.service';
 
 @NgModule({
   declarations: [
     AppComponent,
+    IngresoComponent,
+    MensajeriaComponent,
   ],
   imports: [
-    BrowserModule, 
+    BrowserModule,
     FormsModule,
-    HttpModule 
+    HttpModule
   ],
   providers: [
+    RestApiService
   ],
   bootstrap: [AppComponent]
 })
